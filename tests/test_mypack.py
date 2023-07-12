@@ -10,3 +10,6 @@ class TestSuperSum:
 
     def test_cummutes(self):
         assert super_sum(2, 3) == super_sum(3, 2)
+
+    def test_only_single_number(self):
+        assert super_sum(1) == 1
