@@ -13,3 +13,6 @@ class TestSuperSum:
 
     def test_only_single_number(self):
         assert super_sum(1) == 1
+
+    def test_supports_string_numbers_too(self):
+        assert super_sum("1", 4) == 5
