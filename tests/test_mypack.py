@@ -18,3 +18,6 @@ class TestSuperSum:
 
     def test_supports_string_numbers_too(self):
         assert super_sum("1", 4) == 5
+
+    def test_supports_more_than_two_numbers(self):
+        assert super_sum(1, 2, 3) == 6
